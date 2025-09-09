@@ -51,9 +51,9 @@ Run:
 sudo visudo
 ```
 Then add this line at the bottom (replace with your actual username):
-
+```bash
 {your_username} ALL=(ALL) NOPASSWD: /usr/bin/tee
-
+```
 ### 2. Delete rofi-theme-selector
 Check if it exists:
 ```bash
