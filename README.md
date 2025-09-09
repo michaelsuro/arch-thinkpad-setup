@@ -88,6 +88,15 @@ After the script finishes, manually install the following Firefox extensions to 
 
 - **[Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)** – Isolate sites like Google, Facebook, and Amazon into separate containers to prevent cross-site tracking. You can even log into multiple accounts on the same site in different containers.
 
+
+### 4. Set Up Newsboat
+
+Once the base install script is complete, run the following to install and configure Newsboat (RSS reader):
+
+```bash
+chmod +x scripts/install-newsboat.sh
+./scripts/install-newsboat.sh
+
 ---
 
 ## 🗂️ Directory Structure
@@ -103,7 +112,9 @@ arch-thinkpad-setup/
 │   ├── i3status/config
 │   ├── picom/picom.conf
 │   ├── rofi/config.rasi
-│   └── rofi/themes/thinkpad.rasi
+│   ├── rofi/themes/thinkpad.rasi
+│   ├── newsboat/config
+│   └── newsboat/url
 └──bash/
     └── bashrc
 ```

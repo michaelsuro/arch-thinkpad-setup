@@ -1,0 +1,8 @@
+# Enable automatic feed reloading every 60 minutes
+auto-reload yes
+# reload-time 60
+
+# Keep articles for 30 days
+keep-articles-days 30
+
+include /usr/share/doc/newsboat/contrib/colorschemes/solarized-dark
