@@ -1,0 +1,22 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+alias micoff='echo 0 | sudo tee /sys/class/leds/platform::micmute/brightness'
+alias micon='echo 1 | sudo tee /sys/class/leds/platform::micmute/brightness'
+
+alias briup='brightnessctl set +10%'
+alias bridown='brightnessctl set 10%-'
+
+alias volup='pactl set-sink-volume @DEFAULT_SINK@ +5%'
+alias voldown='pactl set-sink-volume @DEFAULT_SINK -5%'
+alias volmute='pactl set-sink-mute @DEFAULT_SINK@ toggle'
+
+export EDITOR=nano

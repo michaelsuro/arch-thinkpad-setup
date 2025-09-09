@@ -1,0 +1,80 @@
+/*
+ * Rofi theme to create a custom look.
+ *
+ * This theme provides a black background, lavender border, and
+ * a monospace font. It's a great starting point for further customization.
+ */
+
+* {
+    /* Main Window Properties */
+    background-color: transparent;
+    border-color: #8484d9;
+    border-radius: 0px;
+    border: 0px;
+    padding: 0;
+    margin: 0;
+
+    /* Font Properties */
+    font: "monospace bold 10";
+    text-color: #ffffff; /* White text for contrast */
+
+    /* Scrollbar Properties */
+    scrollbar-width: 0px;
+}
+
+window {
+    background-color: #000000; /* Black background */
+    border-color: #8484d9;
+    border: 4px;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+mainbox {
+    background-color: #000000;
+    border: 0;
+    padding: 5px;
+}
+
+inputbar {
+    background-color: #333333; /* A dark gray for the search bar */
+    border-radius: 0px;
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+
+entry {
+    background-color: transparent;
+    text-color: #ffffff;
+    padding: 0;
+}
+
+listview {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    spacing: 2px;
+}
+
+element {
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 5px;
+    margin: 0;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+element selected {
+    background-color: #8484d9;
+    text-color: #ffffff;
+}
+
+element-text selected {
+    background-color: transparent;
+    text-color: #ffffff;
+}

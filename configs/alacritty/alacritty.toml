@@ -1,0 +1,23 @@
+
+[general]
+import = [
+	"~/.config/alacritty/themes/alacritty-theme/themes/night_owl.toml"
+]
+
+[window]
+padding = { x = 4, y = 4 }
+decorations = "full"
+dynamic_title = true
+
+[font]
+normal = { family = "monospace", style = "Bold" }
+size = 8.0
+
+[cursor.style]
+shape = "Block"
+blinking = "On"
+
+[colors.primary]
+background = "0x000000"
+foreground = "0xffffff"
+
