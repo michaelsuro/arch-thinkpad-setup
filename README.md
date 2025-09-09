@@ -91,11 +91,17 @@ After the script finishes, manually install the following Firefox extensions to 
 
 ### 4. Set Up Newsboat
 
-Once the base install script is complete, run the following to install and configure Newsboat (RSS reader):
+Once the base install script is complete, run the following to install and configure Newsboat:
 
 ```bash
 chmod +x scripts/install-newsboat.sh
 ./scripts/install-newsboat.sh
+```
+
+This will:
+- Install Newsboat (terminal-based RSS reader)
+- Add your curated feed list (configs/newsboat/urls)
+- Apply your custom Newsboat config (configs/newsboat/config)
 
 ---
 
