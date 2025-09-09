@@ -74,6 +74,20 @@ This script will:
 - Set Firefox as the default browser
 - Apply dark mode and hardened privacy settings via user.js
 
+#### Firefox Extensions
+
+After the script finishes, manually install the following Firefox extensions to complete tje privacy-first, distraction-free browser setup:
+
+- **[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)** – Lightweight and powerful ad blocker that also filters scripts and trackers. Essential for fast, secure, and clutter-free browsing.
+
+- **[Auto Reader View](https://addons.mozilla.org/en-US/firefox/addon/auto-reader-view/)** – Automatically opens articles in Firefox’s minimalist Reader Mode, stripping out ads and sidebars for easier reading.
+
+- **[Privacy Badger](https://privacybadger.org/)** – Developed by the Electronic Frontier Foundation (EFF), this tool automatically blocks trackers that observe your browsing across multiple sites. It learns over time and doesn’t rely on static blocklists.
+
+- **[Decentraleyes](https://decentraleyes.org/)** – Prevents tracking via CDN-hosted libraries (e.g., jQuery, Bootstrap) by serving them locally from your browser instead.
+
+- **[Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)** – Isolate sites like Google, Facebook, and Amazon into separate containers to prevent cross-site tracking. You can even log into multiple accounts on the same site in different containers.
+
 ---
 
 ## 🗂️ Directory Structure
